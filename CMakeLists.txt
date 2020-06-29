@@ -30,8 +30,7 @@ if(analysisTySingle)
 #  add_definitions(-DSINGLE_FP_TYPE)
 endif()
 
-add_subdirectory(AnnoInstCombine)
 add_subdirectory(CertInstCombine)
 add_subdirectory(StableInstCombine)
-#add_subdirectory(LoopVectorize)
+
 
